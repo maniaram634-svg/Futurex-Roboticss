@@ -1,0 +1,80 @@
+{
+    "smart_manufacturing_refined": {
+        "hero": {
+            "headline": "AUTONOMOUS SYMPHONY: THE SMART FACTORY CORE",
+            "subheading": "Orchestrating humans, robotics, and data into a singular, self-optimizing manufacturing organism."
+        },
+        "industry_challenge": {
+            "description": "Modern production is crippled by rigid infrastructure and reactive decision-making. FutureX solves the complexity of scaling heterogeneous fleets while maintaining zero-defect standards.",
+            "points": [
+                "Infrastructure Inertia: Difficulty in reconfiguring lines for rapid market pivots.",
+                "Data Fragmentation: Siloed IoT streams preventing cohesive predictive analysis.",
+                "Quality variance: Human-driven variability in high-precision assembly environments."
+            ]
+        },
+        "framework": {
+            "title": "The FutureX Smart Manufacturing Framework",
+            "description": "Our framework transitions facilities from 'automated' to 'autonomous' by embedding intelligence at the hardware edge and orchestrating it via the Aura Neural OS.",
+            "points": [
+                "Software-Defined Production: Instant re-tooling through digital-twin synchronization.",
+                "Edge-Cognitive Feedback: Real-time correction loops at the robotic joint level.",
+                "Swarm Orchestration: Decenteralized task allocation across AMR and stationary fleets.",
+                "Predictive Flux Management: Dynamic scheduling that anticipates supply-chain volatility.",
+                "Zero-Waste Pathing: AI-optimized energy and material consumption profiles."
+            ]
+        },
+        "technology_architecture": {
+            "points": [
+                "Aura Neural OS: The centralized cognitive layer handling massive-scale sensor fusion.",
+                "NVIDIA Omniverse Integration: Real-time 1:1 digital twin mirroring of every machine state.",
+                "5G Ultra-Low Latency Mesh: Sub-ms communication for safety-critical swarm coordination.",
+                "Multi-Modal Vision Transformers: Advanced visual reasoning for complex defect detection.",
+                "Haptic Force-Sensing Fabric: Distributed tactile intelligence across all manipulators."
+            ]
+        },
+        "roi_benefits": {
+            "stats": [
+                {
+                    "label": "Operational Uptime",
+                    "value": "99.98%"
+                },
+                {
+                    "label": "Production Throughput",
+                    "value": "+65%"
+                },
+                {
+                    "label": "Energy Utilization",
+                    "value": "-40%"
+                },
+                {
+                    "label": "TCO (Total Cost of Ownership)",
+                    "value": "-22%"
+                }
+            ]
+        },
+        "implementation_process": {
+            "steps": [
+                {
+                    "step": 01,
+                    "title": "Digital Mirroring & Audit",
+                    "description": "We create a high-fidelity digital twin of your current facility to identify optimization bottlenecks."
+                },
+                {
+                    "step": 02,
+                    "title": "Neural Core Integration",
+                    "description": "Deployment of FutureX edge nodes and Aura OS to unify machine communication protocols."
+                },
+                {
+                    "step": 03,
+                    "title": "Autonomous Handover",
+                    "description": "Phased activation of autonomous orchestration modules with continuous AI training."
+                }
+            ]
+        },
+        "cta": {
+            "headline": "Ready to Evolve Your Operations?",
+            "button_text": "Connect with an Architect",
+            "footer_tagline": "Industry 5.0 starts here. With FutureX."
+        }
+    }
+}

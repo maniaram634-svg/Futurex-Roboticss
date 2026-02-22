@@ -1,0 +1,203 @@
+{
+    "fx_arm_series": {
+        "hero": {
+            "headline": "THE FX-ARM SERIES. KINETIC PERFECTION.",
+            "subtext": "The benchmark in high-precision manipulation. From the lightweight FX-3 for electronics to the heavy-duty FX-9 for structural assembly, performance is in our DNA."
+        },
+        "problem_statement": {
+            "title": "Limitations of Standard Cobots",
+            "points": [
+                "Inadequate payload-to-weight ratios limiting application versatility.",
+                "Significant accuracy decay during high-speed operations.",
+                "Complex integration processes requiring extensive custom middleware.",
+                "Fragility in harsh industrial environments (dust, heat, vibration)."
+            ]
+        },
+        "our_solution": {
+            "title": "Unrivaled Versatility. Industrial Strength.",
+            "description": "The FX-Arm is built on a modular aerospace-grade foundation. It features strain-wave gearing and absolute encoders to maintain sub-millimeter precision over millions of cycles.",
+            "features": [
+                "Hyper-Torque Actuators: Highest power density in its class.",
+                "Interchangeable Flange System: Quick-swap for vacuum, mechanical, or soft grippers.",
+                "Integrated Vision Port: Direct mounting points for FX-Vision sensors."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Mechanical Core",
+                    "details": "High-modulus carbon fiber linkages reducing inertia and improving thermal stability."
+                },
+                {
+                    "name": "Sensing Mesh",
+                    "details": "Multi-axis force/torque sensors at the tool center point (TCP) for delicate assembly."
+                },
+                {
+                    "name": "Control Bus",
+                    "details": "Real-time EtherCAT communication protocol ensuring microsecond synchronization."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Repeatability",
+                    "value": "±0.01mm"
+                },
+                {
+                    "label": "Lifecycle (MTBF)",
+                    "value": "50,000 Hours"
+                },
+                {
+                    "label": "Energy Recovery",
+                    "value": "Re-gen Braking"
+                }
+            ],
+            "summary": "Minimize downtime and maximize precision. The FX-Arm pays for itself through reduced scrap and increased consistency."
+        },
+        "case_study": {
+            "client": "Aerospace Component Supplier",
+            "challenge": "Drilling 400+ holes in titanium wing spars with varying thickness.",
+            "result": "FX-Arm 7-axis manipulator achieved 100% drilling accuracy, reducing secondary inspection time by 60%."
+        },
+        "cta": {
+            "headline": "Build Your Optimized Line",
+            "button_text": "Request a Quote",
+            "secondary_text": "View Full Product Catalog"
+        }
+    },
+    "fx_vision_ai": {
+        "hero": {
+            "headline": "FX-VISION AI. SUPERHUMAN PERCEPTION.",
+            "subtext": "The eyes of your operation. A deep-learning vision system that goes beyond 2D/3D imaging to provide semantic understanding of complex industrial scenes."
+        },
+        "problem_statement": {
+            "title": "The Visual Deficit in Automation",
+            "points": [
+                "Rule-based vision failing under variable lighting or shadows.",
+                "Inability to distinguish between similar-looking components in random orientation.",
+                "High latency in vision-guided-robotics (VGR) causing jerky movements.",
+                "Difficulty in training new models for custom quality inspections."
+            ]
+        },
+        "our_solution": {
+            "title": "Cognitive Vision at the Edge",
+            "description": "FX-Vision AI combines proprietary 4K HDR sensors with a dedicated neural processor. It doesn't just see pixels; it identifies intent, anomalies, and spatial relationships.",
+            "features": [
+                "Neural Bin Picking: Automate the most difficult sorting tasks with ease.",
+                "Real-time Defect Mapping: Detect scratches hidden to the human eye in milliseconds.",
+                "Autonomous Re-training: Small datasets are all you need to teach the system new parts."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Optics Suite",
+                    "details": "Multi-spectral lens array capturing thermal, RGB, and depth data simultaneously."
+                },
+                {
+                    "name": "In-Camera AI",
+                    "details": "Dedicated Tensor Processing Unit (TPU) for zero-latency inference."
+                },
+                {
+                    "name": "Semantic Engine",
+                    "details": "Spatial-transformer models for 6D pose estimation and collision avoidance."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Inference Speed",
+                    "value": "120 FPS"
+                },
+                {
+                    "label": "Defect Detection",
+                    "value": "99.999%"
+                },
+                {
+                    "label": "Training Time",
+                    "value": "Under 1 Hour"
+                }
+            ],
+            "summary": "Reduce inspection bottlenecks and eliminate human error. FX-Vision AI is your 24/7 quality guard."
+        },
+        "case_study": {
+            "client": "Luxury Watchmaker",
+            "challenge": "Identifying microscopic surface blemishes on polished stainless steel.",
+            "result": "FX-Vision AI outperformed human inspectors by 4x in speed and 2x in detail detection."
+        },
+        "cta": {
+            "headline": "See Clearly. Act Faster.",
+            "button_text": "Request a Tech Sandbox",
+            "secondary_text": "Watch Integration Demo"
+        }
+    },
+    "fx_mobile_systems": {
+        "hero": {
+            "headline": "FX-MOBILE SYSTEMS. LOGISTICS UNCONFINED.",
+            "subtext": "Autonomous Mobile Robots (AMRs) that navigate the most chaotic floors with ease. From warehouse fulfillment to site-to-site heavy transport."
+        },
+        "problem_statement": {
+            "title": "Grid-Locked Intralogistics",
+            "points": [
+                "Traditional AGVs requiring expensive magnetic floor tape or fixed reflectors.",
+                "Gridlock issues during peak traffic in narrow warehouse aisles.",
+                "Difficulty in handling variable payloads and uneven flooring.",
+                "Software silos preventing coordination with stationary robotic arms."
+            ]
+        },
+        "our_solution": {
+            "title": "True Autonomy. Swarm Optimized.",
+            "description": "FX-Mobile robots use Simultaneous Localization and Mapping (SLAM) powered by 3D-LiDAR. They operate as a collective, dynamically re-routing to avoid congestion.",
+            "features": [
+                "Adaptive Swarm Mesh: Robots communicate to clear paths for high-priority loads.",
+                "Omni-Directional Drive: Precision movement in any direction, even in tight spaces.",
+                "Auto-Docking Power: 24/7 operation with autonomous opportunity charging."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Navigation Stack",
+                    "details": "Hybrid-SLAM utilizing LiDAR, IMU, and Vision for centimeter-level localization."
+                },
+                {
+                    "name": "Drive System",
+                    "details": "High-torque brushless DC motors with integrated brake-by-wire safety."
+                },
+                {
+                    "name": "Payload Interface",
+                    "details": "Universal mounting plate for rollers, lifts, or even FX-Arms for mobile manipulation."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Floor Space Increase",
+                    "value": "20%"
+                },
+                {
+                    "label": "Throughput Boost",
+                    "value": "60%"
+                },
+                {
+                    "label": "Battery Efficiency",
+                    "value": "18 Hours/Charge"
+                }
+            ],
+            "summary": "Unlock the full potential of your facility. Our AMRs require zero infrastructure changes to deploy."
+        },
+        "case_study": {
+            "client": "E-commerce Fulfillment Center",
+            "challenge": "A 300% surge in order volume during holiday seasons.",
+            "result": "Deployment of a 50-unit FX-Mobile fleet handled the surge without a single safety incident or delay."
+        },
+        "cta": {
+            "headline": "Mobilize Your Operations",
+            "button_text": "Request a Fleet Preview",
+            "secondary_text": "Explore AMR Use Cases"
+        }
+    }
+}

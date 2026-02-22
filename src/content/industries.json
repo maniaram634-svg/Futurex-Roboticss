@@ -1,0 +1,203 @@
+{
+    "automotive": {
+        "hero": {
+            "headline": "DRIVING THE FUTURE OF MOBILITY. AUTOMOTIVE ROBOTICS.",
+            "subtext": "Complete factory floors for the next era of transportation. Specialized solutions for EV battery assembly, chassis welding, and final trim automation."
+        },
+        "problem_statement": {
+            "title": "The Pressure of the EV Transition",
+            "points": [
+                "Inflexible assembly lines designed for ICE vehicles struggling with EV battery weights.",
+                "Increased quality control requirements for high-voltage components.",
+                "Global competition demanding faster time-to-market for new models.",
+                "Precision requirements in autonomous sensor calibration."
+            ]
+        },
+        "our_solution": {
+            "title": "The Agile Factory: From Chassis to Software",
+            "description": "FutureX provides a full-stack automotive automation suite. We focus on modularity, allowing manufacturers to pivot between models with zero downtime for line re-tooling.",
+            "features": [
+                "High-Payload FX-Mobile Units: Transport 2.5-ton EV battery packs with micron precision.",
+                "Vision-Guided Trim Installation: Robots that adjust for variable tolerances in interior fabrics.",
+                "Predictive Quality AI: Real-time analysis of every weld and screw torque."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Heavy-Duty Manipulators",
+                    "details": "Chassis-handling arms with integrated thermal management for high-cycle counts."
+                },
+                {
+                    "name": "Sync-Link Protocol",
+                    "details": "Millisecond-level synchronization between moving AMRs and stationary robotic cells."
+                },
+                {
+                    "name": "Master Factory Control",
+                    "details": "Cloud-native ERP integration for real-time production tracking and trace."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Model Pivot Time",
+                    "value": "24 Hours"
+                },
+                {
+                    "label": "High-Voltage Safety",
+                    "value": "100%"
+                },
+                {
+                    "label": "Cost Per Unit",
+                    "value": "-18%"
+                }
+            ],
+            "summary": "Build the cars of tomorrow on the infrastructure of today. FutureX ensures your facility is ready for the EV revolution and beyond."
+        },
+        "case_study": {
+            "client": "Tier 1 EV Manufacturer",
+            "challenge": "Manual battery pack assembly was the primary bottleneck in production scaling.",
+            "result": "FX-Automated Battery Cell implementation increased capacity by 400% while reducing floor space requirements by 30%."
+        },
+        "cta": {
+            "headline": "Accelerate Your Production Line",
+            "button_text": "Get an Industry Audit",
+            "secondary_text": "Download EV Case Study"
+        }
+    },
+    "electronics": {
+        "hero": {
+            "headline": "MICRON PRECISION. MACRO SCALE. ELECTRONICS MANUFACTURING.",
+            "subtext": "Solutions for the most delicate components on earth. Our high-speed pick-and-place and automated test systems define the standard for consumer electronics."
+        },
+        "problem_statement": {
+            "title": "The Shrinkage of Tolerances",
+            "points": [
+                "Miniaturization making manual assembly and inspection impossible.",
+                "High sensitivity to ESD (Electrostatic Discharge) and contamination.",
+                "Short product lifecycles requiring rapid line re-configuration.",
+                "Extreme volume requirements with zero tolerance for batch failures."
+            ]
+        },
+        "our_solution": {
+            "title": "Extreme Density Automation",
+            "description": "FutureX Electronics focus on speed and delicacy. Our systems use vacuum-precision and high-speed vision to handle components as small as 0.1mm with absolute reliability.",
+            "features": [
+                "Sub-Millimeter Handling: Specialized FX-Arms for chip-on-wafer and PCB assembly.",
+                "Cleanroom-Rated Hardware: ISO Class 1 certified robotics for vacuum environments.",
+                "Parallel Processing Nodes: Multiple vision heads working in sync for 360° inspection."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Precision Optics",
+                    "details": "Micro-LiDAR and ultra-high-res cameras for 3D alignment of micro-pins."
+                },
+                {
+                    "name": "Vibration Isolation",
+                    "details": "Active air-cushioned bases to prevent external interference with assembly."
+                },
+                {
+                    "name": "ESD Shielding",
+                    "details": "Full-body dissipative coatings and grounded joints for sensitive logic boards."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "First Pass Yield",
+                    "value": "99.98%"
+                },
+                {
+                    "label": "Placement Speed",
+                    "value": "0.4s/part"
+                },
+                {
+                    "label": "Line Re-config",
+                    "value": "<2 Hours"
+                }
+            ],
+            "summary": "Achieve higher yields on smaller components. FutureX provides the stability needed for the next generation of semiconductors."
+        },
+        "case_study": {
+            "client": "Top-Tier Smartphone Brand",
+            "challenge": "Automating the assembly of 5G antennas without signal interference.",
+            "result": "FX-Electronics precision cells enabled 100% automated antenna bonding with zero signal loss incidents."
+        },
+        "cta": {
+            "headline": "Engineer the Next Gen",
+            "button_text": "Speak to an Application Engineer",
+            "secondary_text": "View Electronics Specs"
+        }
+    },
+    "logistics": {
+        "hero": {
+            "headline": "THE AUTONOMOUS WAREHOUSE. LOGISTICS UNBOUND.",
+            "subtext": "From port to porch. Intelligent sorting, autonomous trucking, and last-mile delivery systems that redefine global supply chains."
+        },
+        "problem_statement": {
+            "title": "The Bottlenecks of Global Commerce",
+            "points": [
+                "Inefficient palletizing leading to wasted container and truck space.",
+                "Human fatigue in 24/7 sorting operations causing injuries and errors.",
+                "Lack of coordination between warehouse storage and outbound docks.",
+                "Slow response to peaks in seasonal demand."
+            ]
+        },
+        "our_solution": {
+            "title": "Fluid Logistics Orchestration",
+            "description": "FutureX Logistics turns static warehouses into dynamic fulfillment engines. We use swarm intelligence to ensure the right item is in the right place at the exactly right time.",
+            "features": [
+                "Smart Palletizing AI: Optimal space utilization through 3D Tetris-style packing.",
+                "Autonomous Yard Management: AMRs that move containers and trailers without human drivers.",
+                "End-to-End Visibility: Track every unit from arrival to final shipping label."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Swarm Core",
+                    "details": "Decentralized logic allowing 1,000+ robots to coordinate movements locally."
+                },
+                {
+                    "name": "Hybrid Navigation",
+                    "details": "GPS + LiDAR + SLAM for seamless transition between indoor and outdoor zones."
+                },
+                {
+                    "name": "Sorting Matrix",
+                    "details": "High-speed diverters and robotic inductors capable of 20,000 PPH (parcels per hour)."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Order Fullfillment",
+                    "value": "+300%"
+                },
+                {
+                    "label": "Sorting Error Rate",
+                    "value": "0.001%"
+                },
+                {
+                    "label": "Energy Savings",
+                    "value": "40%"
+                }
+            ],
+            "summary": "Scale your operations without scaling your headcount. FutureX Logistics is the foundation of modern e-commerce."
+        },
+        "case_study": {
+            "client": "Global Shipping Hub",
+            "challenge": "Cross-docking operations were manual and bottlenecked by paper-based tracking.",
+            "result": "Full FutureX Logistics integration reduced dock-to-dock time by 65% and eliminated 98% of sorting errors."
+        },
+        "cta": {
+            "headline": "Optimize Your Supply Chain",
+            "button_text": "Request a Logistics Simulation",
+            "secondary_text": "Watch Swarm Tech in Action"
+        }
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "industrial_automation": {
+        "hero": {
+            "headline": "PRECISION REDEFINED. AUTOMATION EVOLVED.",
+            "subtext": "Deploying the next generation of autonomous industrial workflows. Our FX-Series systems integrate seamlessly into existing production lines, delivering millimetric accuracy and unmatched uptime."
+        },
+        "problem_statement": {
+            "title": "The Stagnation of Legacy Systems",
+            "points": [
+                "Inflexible hardware unable to adapt to rapid SKU changes.",
+                "High maintenance costs and unpredictable downtime of aging machinery.",
+                "Disconnected data silos preventing real-time process optimization.",
+                "Labor shortages in high-precision welding and assembly roles."
+            ]
+        },
+        "our_solution": {
+            "title": "The FutureX Unified Automation Framework",
+            "description": "We replace rigid automation with fluid, software-defined robotics. Our solutions combine high-torque hardware with edge-computing intelligence to create a self-correcting assembly environment.",
+            "features": [
+                "Dynamic Path Planning: Real-time obstacle avoidance and path optimization.",
+                "Universal Gripper System: Swap tasks in seconds with modular end-effectors.",
+                "Digital Twin Integration: Simulate changes in 1:1 virtual environments before deployment."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Hardware Layer",
+                    "details": "Carbon-fiber reinforced FX-Arms with integrated force-torque sensors at every joint."
+                },
+                {
+                    "name": "Compute Layer",
+                    "details": "NVIDIA-powered edge nodes processing vision and tactile data at sub-10ms latency."
+                },
+                {
+                    "name": "Connectivity Layer",
+                    "details": "Ultra-secure 5G-enabled mesh networking for factory-wide swarm synchronization."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Productivity Increase",
+                    "value": "45%"
+                },
+                {
+                    "label": "Energy Efficiency",
+                    "value": "30%"
+                },
+                {
+                    "label": "ROI Period",
+                    "value": "14 Months"
+                }
+            ],
+            "summary": "Achieve higher throughput with lower operational overhead. Our systems are designed for 24/7Lights-Out manufacturing."
+        },
+        "case_study": {
+            "client": "Global Automotive OEM",
+            "challenge": "A 12% defect rate in precision chassis welding due to manual variability.",
+            "result": "Defect rate dropped to <0.1% within 3 months of FX-Arm deployment. Overall production speed increased by 22%."
+        },
+        "cta": {
+            "headline": "Ready to Automate Your Future?",
+            "button_text": "Schedule a Site Audit",
+            "secondary_text": "Download the Whitepaper"
+        }
+    },
+    "ai_robotics": {
+        "hero": {
+            "headline": "EMBODIED INTELLIGENCE. THE ERA OF NEURAL ROBOTICS.",
+            "subtext": "Bridging the gap between software logic and physical action. FutureX AI Robotics brings cognitive capabilities to your fleet, enabling machines to see, learn, and adapt."
+        },
+        "problem_statement": {
+            "title": "The Blind Spots of Traditional Robotics",
+            "points": [
+                "Robots failing when encountering edge cases or unstructured environments.",
+                "Programming-heavy setups that require weeks of specialized coding for simple task changes.",
+                "Lack of collaborative safety features, necessitating heavy physical caging.",
+                "Inability to handle delicate or variable-geometry objects (e.g., organic materials)."
+            ]
+        },
+        "our_solution": {
+            "title": "FX-Neural Core: The Robot Brain",
+            "description": "Our AI Robotics suite leverages Large Action Models (LAMs) to transform simple commands into complex physical sequences. It doesn't just execute code; it understands the environment.",
+            "features": [
+                "Vision-Language-Action (VLA) Models: Command your fleet in plain English.",
+                "Reinforcement Learning from Simulation: Robots train in NVIDIA Isaac Sim to master tasks in hours.",
+                "Human-Centric Safety: Advanced 3D-LiDAR sensing for cage-free collaboration."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Neural Engine",
+                    "details": "Proprietary Aura OS running transformer-based architectures for spatial awareness."
+                },
+                {
+                    "name": "Sensor Fusion",
+                    "details": "Multi-spectral imaging combined with ultrasonic and proximity arrays."
+                },
+                {
+                    "name": "Active Feedback",
+                    "details": "Haptic feedback loops providing 'digital touch' sensitivity for delicate handling."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Setup Time Reduction",
+                    "value": "80%"
+                },
+                {
+                    "label": "Task Success Rate",
+                    "value": "99.9%"
+                },
+                {
+                    "label": "Worker Safety Score",
+                    "value": "100/100"
+                }
+            ],
+            "summary": "Eliminate the need for expensive re-programming. Your robots grow more efficient with every task they complete."
+        },
+        "case_study": {
+            "client": "Tech-Logistics Giant",
+            "challenge": "Managing 50,000+ unique SKUs that varied in shape, weight, and fragility.",
+            "result": "Deployment of FX-Vision AI enabled 100% automated sorting with zero breakage reported in the first year."
+        },
+        "cta": {
+            "headline": "Experience the AI Revolution",
+            "button_text": "Book a Demo",
+            "secondary_text": "View Technical Specs"
+        }
+    },
+    "smart_manufacturing": {
+        "hero": {
+            "headline": "THE SYMPHONY OF PRODUCTION. SMART MANUFACTURING.",
+            "subtext": "Transforming isolated factories into a unified, intelligent ecosystem. Real-time observability, predictive maintenance, and autonomous orchestration for the modern enterprise."
+        },
+        "problem_statement": {
+            "title": "The Complexity of Modern Production",
+            "points": [
+                "Supply chain volatility disrupting just-in-time production schedules.",
+                "Energy waste due to unoptimized machine cycles.",
+                "Quality control lag times causing massive batch recalls.",
+                "Inability to scale production up or down dynamically based on market demand."
+            ]
+        },
+        "our_solution": {
+            "title": "The FutureX Smart Factory OS",
+            "description": "Our Smart Manufacturing solution is a centralized nerve center that orchestrates robots, humans, and supply chains. It uses predictive analytics to solve problems before they occur.",
+            "features": [
+                "Predictive Maintenance: AI algorithms that forecast component failure 72 hours in advance.",
+                "Dynamic Load Balancing: Autonomous redirection of tasks to idle workstations.",
+                "Green-Sync Tech: Optimization of power consumption during peak load periods."
+            ]
+        },
+        "technology_architecture": {
+            "layers": [
+                {
+                    "name": "Data Ingestion",
+                    "details": "IoT gateways collecting 10,000+ data points per second from across the facility."
+                },
+                {
+                    "name": "Analytical Engine",
+                    "details": "Clustered cloud-computing for deep-learning pattern recognition."
+                },
+                {
+                    "name": "Control Interface",
+                    "details": "Full AR/VR dashboard for real-time remote factory management."
+                }
+            ]
+        },
+        "benefits_roi": {
+            "metrics": [
+                {
+                    "label": "Uptime Improvement",
+                    "value": "35%"
+                },
+                {
+                    "label": "Waste Reduction",
+                    "value": "50%"
+                },
+                {
+                    "label": "Operational Cost",
+                    "value": "-25%"
+                }
+            ],
+            "summary": "Shift from reactive troubleshooting to proactive management. Maximize every square meter of your facility."
+        },
+        "case_study": {
+            "client": "Electronics Components Manufacturer",
+            "challenge": "Unpredictable machine failures led to $500k in monthly lost revenue.",
+            "result": "Smart Factory OS implementation reduced unplanned downtime by 92% through predictive alerts."
+        },
+        "cta": {
+            "headline": "Upgrade to Industry 5.0",
+            "button_text": "Expert Consultation",
+            "secondary_text": "Calculate Your ROI"
+        }
+    }
+}

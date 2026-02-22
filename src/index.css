@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 200 20% 90%;
+
+    --card: 220 25% 8%;
+    --card-foreground: 200 20% 90%;
+
+    --popover: 220 25% 8%;
+    --popover-foreground: 200 20% 90%;
+
+    --primary: 185 100% 50%;
+    --primary-foreground: 220 20% 4%;
+
+    --secondary: 220 30% 14%;
+    --secondary-foreground: 200 20% 90%;
+
+    --muted: 220 20% 12%;
+    --muted-foreground: 215 15% 55%;
+
+    --accent: 210 80% 55%;
+    --accent-foreground: 200 20% 95%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 16%;
+    --input: 215 25% 16%;
+    --ring: 185 100% 50%;
+
+    --radius: 0.75rem;
+
+    --neon-cyan: 185 100% 50%;
+    --neon-blue: 210 100% 60%;
+    --deep-blue: 220 60% 12%;
+    --glass: 220 30% 12%;
+    --glass-border: 215 30% 22%;
+
+    --sidebar-background: 220 20% 6%;
+    --sidebar-foreground: 200 20% 90%;
+    --sidebar-primary: 185 100% 50%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 30% 14%;
+    --sidebar-accent-foreground: 200 20% 90%;
+    --sidebar-border: 215 25% 16%;
+    --sidebar-ring: 185 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-glass/40 backdrop-blur-xl border border-glass-border/50;
+  }
+
+  .glass-card {
+    @apply bg-glass/30 backdrop-blur-lg border border-glass-border/40 rounded-xl;
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 20px hsl(var(--neon-cyan) / 0.3), 0 0 60px hsl(var(--neon-cyan) / 0.1);
+  }
+
+  .neon-text {
+    text-shadow: 0 0 10px hsl(var(--neon-cyan) / 0.5), 0 0 40px hsl(var(--neon-cyan) / 0.2);
+  }
+
+  .neon-border {
+    border-color: hsl(var(--neon-cyan) / 0.4);
+    box-shadow: inset 0 0 20px hsl(var(--neon-cyan) / 0.05), 0 0 15px hsl(var(--neon-cyan) / 0.1);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4 md:px-8;
+  }
+}
