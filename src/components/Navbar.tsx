@@ -51,61 +51,63 @@ const Navbar = () => {
           </span>
         </a>
 
-        {/* Desktop Navigation */}
-        <div className="hidden lg:flex items-center gap-6">
-          {navLinks.map((link) => (
-            <div
-              key={link.label}
-              className="relative group"
-              onMouseEnter={() => link.subLinks && setActiveDropdown(link.label)}
-              onMouseLeave={() => setActiveDropdown(null)}
-            >
-              <a
-                href={link.href}
-                className="flex items-center gap-1 font-heading text-[13px] font-semibold uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors duration-300 py-2"
+        <div className="flex items-center gap-6">
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-6">
+            {navLinks.map((link) => (
+              <div
+                key={link.label}
+                className="relative group"
+                onMouseEnter={() => link.subLinks && setActiveDropdown(link.label)}
+                onMouseLeave={() => setActiveDropdown(null)}
               >
-                {link.label}
-                {link.subLinks && <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />}
-              </a>
+                <a
+                  href={link.href}
+                  className="flex items-center gap-1 font-heading text-[13px] font-semibold uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors duration-300 py-2"
+                >
+                  {link.label}
+                  {link.subLinks && <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />}
+                </a>
 
-              {link.subLinks && (
-                <div className="absolute top-full left-0 w-64 pt-2 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300">
-                  <div className="glass-card p-4 border border-primary/20 bg-background/95 shadow-2xl">
-                    <div className="grid gap-2">
-                      {link.subLinks.map((sub) => (
-                        <a
-                          key={sub.label}
-                          href={sub.href}
-                          className="flex items-center gap-3 px-3 py-2.5 text-[13px] font-medium text-muted-foreground hover:text-primary hover:bg-primary/5 rounded-md transition-all group/item"
-                        >
-                          <div className="w-8 h-8 rounded bg-primary/5 flex items-center justify-center border border-primary/10 group-hover/item:border-primary/30 transition-colors">
-                            <sub.icon size={16} className="text-primary/70 group-hover/item:text-primary transition-colors" />
-                          </div>
-                          {sub.label}
-                        </a>
-                      ))}
+                {link.subLinks && (
+                  <div className="absolute top-full left-0 w-64 pt-2 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300">
+                    <div className="glass-card p-4 border border-primary/20 bg-background/95 shadow-2xl">
+                      <div className="grid gap-2">
+                        {link.subLinks.map((sub) => (
+                          <a
+                            key={sub.label}
+                            href={sub.href}
+                            className="flex items-center gap-3 px-3 py-2.5 text-[13px] font-medium text-muted-foreground hover:text-primary hover:bg-primary/5 rounded-md transition-all group/item"
+                          >
+                            <div className="w-8 h-8 rounded bg-primary/5 flex items-center justify-center border border-primary/10 group-hover/item:border-primary/30 transition-colors">
+                              <sub.icon size={16} className="text-primary/70 group-hover/item:text-primary transition-colors" />
+                            </div>
+                            {sub.label}
+                          </a>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+                )}
+              </div>
+            ))}
+          </div>
 
-        {/* Contact Button (Desktop) */}
-        <div className="hidden lg:block">
-          <a href="#contact" className="px-5 py-2.5 rounded-full bg-primary text-primary-foreground font-heading text-xs font-bold tracking-widest hover:neon-glow hover:scale-105 transition-all">
-            GET IN TOUCH
-          </a>
-        </div>
+          {/* Contact Button (Desktop) */}
+          <div className="hidden lg:block">
+            <a href="#contact" className="px-5 py-2.5 rounded-full bg-primary text-primary-foreground font-heading text-xs font-bold tracking-widest hover:neon-glow hover:scale-105 transition-all">
+              GET IN TOUCH
+            </a>
+          </div>
 
-        {/* Mobile Toggle */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="lg:hidden p-2 text-muted-foreground hover:text-primary transition-colors"
-        >
-          {open ? <X size={24} /> : <Menu size={24} />}
-        </button>
+          {/* Mobile Toggle */}
+          <button
+            onClick={() => setOpen(!open)}
+            className="lg:hidden p-2 text-muted-foreground hover:text-primary transition-colors"
+          >
+            {open ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Navigation */}
